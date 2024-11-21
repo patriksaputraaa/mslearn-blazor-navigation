@@ -4,9 +4,9 @@ namespace BlazingPizza;
 
 public class PizzaStoreContext : DbContext
 {
-    public PizzaStoreContext(
-        DbContextOptions options) : base(options)
+    public PizzaStoreContext(DbContextOptions options) : base(options)
     {
+
     }
 
     public DbSet<Order> Orders { get; set; }
